@@ -23,12 +23,6 @@ This package extends [eslint:recommended](http://eslint.org/docs/rules/) and [pl
 
 This package overrides several rules:
 
-|==|==|
-
-1.
-
-http://eslint.org/docs/rules/no-constant-condition
-
 | Override | Description | Reason  |
 |--|--|--|
 | `"no-constant-condition": 0` | [link](http://eslint.org/docs/rules/no-constant-condition) | We often use `const` declarations together with JSX checks |
