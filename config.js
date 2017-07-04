@@ -25,6 +25,7 @@ module.exports = {
     window: false
   },
   rules: {
+    "no-constant-condition": 0,
     "semi": ["error", "never"],
     "no-console": 1,
     "no-unused-vars": 1,
