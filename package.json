@@ -17,6 +17,7 @@
     "eslint": "^2.0.0 || ^3.0.0 || ^4.0.0"
   },
   "dependencies": {
-    "eslint-plugin-html": "^2.0.0"
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-react": "7.0.1"
   }
 }
