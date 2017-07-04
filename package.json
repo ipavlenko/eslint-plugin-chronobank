@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-chronobank",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "eslint plugin for ChronoBank related projects",
   "main": "index.js",
   "repository": {
