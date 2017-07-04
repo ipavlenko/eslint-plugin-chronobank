@@ -4,12 +4,12 @@
 
 ## Usage
 
-1. `npm install eslint-plugin-chronobank --save-dev`
+1. `npm install ChronoBank/eslint-plugin-chronobank --save-dev`
 2. create a file named `.eslintrc` in your project:
 
 ```js
 {
-  extends: ["plugin:chronobank/recommended"]
+  extends: ['plugin:chronobank/recommended']
 }
 ```
 
