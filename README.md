@@ -5,12 +5,33 @@
 ## Usage
 
 1. `npm install ChronoBank/eslint-plugin-chronobank --save-dev`
-2. create a file named `.eslintrc` in your project:
+2. Create a file named `.eslintrc` in your project:
 
 ```js
 {
   extends: ['plugin:chronobank/recommended']
 }
+```
+
+3. Add to your `package.json` (you'll probably need to change `src` and `specs` folders to your own):
+
+```js
+"scripts": {
+  ...
+  "lint": "./node_modules/eslint/bin/eslint.js --ext .js,.jsx --fix src specs",
+  "lint:test": "./node_modules/eslint/bin/eslint.js --ext .js,.jsx src specs",
+  "test": "npm run lint:test && jest --useStderr --forceExit --runInBand",
+```
+
+4. Use `npm test` before any commit and in your `travis.yml`:
+
+```js
+script:
+  ...
+  - npm test -- --coverage
+
+after_script:
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 ```
 
 ## Rules
