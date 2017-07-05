@@ -17,6 +17,7 @@ module.exports = {
     es6: true,
     node: true,
     browser: true,
+    jasmine: true,
     jest: true,
     commonjs: true
   },
