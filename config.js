@@ -26,8 +26,8 @@ module.exports = {
     window: false
   },
   rules: {
-    "no-constant-condition": 0,
-    "semi": ["error", "never"],
+    'no-constant-condition': 0,
+    'semi': ['error', 'never'],
     'curly': [2, 'multi-line'],
     'dot-location': [2, 'property'],
     'eol-last': 2,
