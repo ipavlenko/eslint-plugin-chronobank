@@ -27,8 +27,6 @@ This package overrides several rules:
 |--|--|--|
 | `"no-constant-condition": 0` | [link](http://eslint.org/docs/rules/no-constant-condition) | We often use `const` declarations together with JSX checks |
 | `"semi": ["error", "never"]` | [link](http://eslint.org/docs/rules/semi) | We hate them |
-| `"no-console": 1` | [link](http://eslint.org/docs/rules/no-console) | Allow console for logging |
-| `"no-unused-vars": 1` | [link](http://eslint.org/docs/rules/no-unused-vars) | Warning on unused vars (need code refactoring befor setting "error" level) |
 | `"no-case-declarations": 1` | [link](http://eslint.org/docs/rules/no-case-declarations) | Warning on case declarations (need code refactoring before setting "error" level) |
 | `'curly': [2, 'multi-line']` | [link](http://eslint.org/docs/rules/curly) | Enforce curly braces in multiline blocks |
 | `'dot-location': [2, 'property']` | [link](http://eslint.org/docs/rules/dot-location) | Enforce the dot to be on the same line as the property |
@@ -37,14 +35,6 @@ This package overrides several rules:
 | `'handle-callback-err': [2, '^(err&#124;error)$' ]` | [link](http://eslint.org/docs/rules/handle-callback-err) | Enforce handling of callback errors |
 | `'indent': [2, 2, { 'SwitchCase': 1 }]` | [link](http://eslint.org/docs/rules/indent) | Enforce indent in switch statements |
 | `'jsx-quotes': [2, 'prefer-single']` | [link](http://eslint.org/docs/rules/jsx-quotes) | Use single quotes in JSX |
-| `"react/jsx-key": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md) | :exclamation: Warning on missing key property (need code refactoring before setting "error" level) |
-| `"react/prop-types": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md) | :exclamation: Warning on missing PropTypes definitions (need code refactoring before setting "error" level) |
-| `"react/no-string-refs": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md) | :exclamation: Warning on string references (need code refactoring before setting "error" level) |
-| `"react/display-name": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md) | :exclamation: Warning on missing displayName in a React component definition (need code refactoring before setting "error" level) |
-| `"react/no-unescaped-entities": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities) | :exclamation: Warning on unescaped html entities (need code refactoring before setting "error" level) |
-| `"react/jsx-no-target-blank": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank) | :exclamation: Warning on usage of unsafe `target='_blank'` (need code refactoring before setting "error" level) |
-| `"react/no-find-dom-node": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-find-dom-node) | :exclamation: Warning on usage of `findDOMNode` (need code refactoring before setting "error" level) |
-| `"react/no-deprecated": 1` | [link](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated) | :exclamation: Warning on usage of deprecated methods (need code refactoring before setting "error" level) |
 
 ## License
 
