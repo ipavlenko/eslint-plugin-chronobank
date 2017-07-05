@@ -13,13 +13,13 @@
 }
 ```
 
-3. Add to your `package.json`:
+3. Add to your `package.json` (you'll probably need to change `src` and `specs` folders to your own):
 
 ```js
 "scripts": {
   ...
-  "lint": "./node_modules/eslint/bin/eslint.js --ext .js,.jsx --fix src",
-  "lint:test": "./node_modules/eslint/bin/eslint.js --ext .js,.jsx src",
+  "lint": "./node_modules/eslint/bin/eslint.js --ext .js,.jsx --fix src specs",
+  "lint:test": "./node_modules/eslint/bin/eslint.js --ext .js,.jsx src specs",
   "test": "npm run lint:test && jest --useStderr --forceExit --runInBand",
 ```
 
