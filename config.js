@@ -11,7 +11,6 @@ module.exports = {
     },
     sourceType: 'module'
   },
-  parser: 'babel-eslint',
   env: {
     es6: true,
     node: true,
